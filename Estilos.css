@@ -1,0 +1,332 @@
+.nav-link a{
+    background-color: rgb(0, 0, 0);
+}
+
+.center-img {
+    display: block;
+    margin: auto;
+}
+
+.navbar-nav {
+    text-align: center;
+    font-size: 25px;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #000000; 
+    
+}
+
+.navbar-brand {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+    color: #000000;
+}
+
+.navbar-brand img {
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    margin-left: 250px;
+    
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 767px) {
+    .navbar-brand img {
+        margin-left: 0; 
+    }
+    
+}
+.navbar {
+    background-color: transparent !important; 
+}
+
+.inicio{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 140px;
+    
+    
+}
+
+
+@media (max-width: 767px) {
+    body {
+       
+        background-attachment: fixed; 
+    }
+    .btn {
+        border-color: white; 
+        
+    }
+
+    .btn:hover {
+        background-color: white; 
+        color: black; 
+    }
+    
+}
+.navbar-nav .nav-link {
+    color: white; 
+}
+.wabe {
+    position: absolute;
+    bottom: 0; 
+    width: 100%;
+    
+}
+.sobrenosotros-container {
+    margin-top: 20px;
+    padding: 20px; 
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px; 
+}
+
+.sobrenosotros {
+    text-align: center; 
+}
+header {
+    width: 100%;
+    position: relative; 
+    z-index: 1; 
+    height: 800px;
+    background-size: cover; 
+    background-position: center bottom; 
+    background-attachment: fixed;
+    background-image: url('img/fondooooo.jpg'); 
+}
+
+
+header.scrolled .inicio {
+    color: white;
+    transition: color 0.3s ease;
+}
+.inicio a {
+    color: white;
+}
+body {
+    color: white;
+    
+}
+
+
+
+.navbar-brand span {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 24px;
+    
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+.sobrenosotros {
+    text-align: center; 
+}
+.sobrenosotros-container {
+    display: flex;
+    justify-content: center; 
+    width: 100%; 
+}
+
+
+.sobrenosotros h1 {
+    color: rgb(0, 71, 194);
+    margin-top: 40px;
+    margin-right: 0; 
+    font-size: 70px;
+    margin-bottom: 30px;
+}
+
+.sobrenosotros h2 {
+    color: rgb(0, 0, 0);
+    margin-top: 100px;
+    margin-right: 0; 
+    margin-bottom: 60px;
+    
+   
+}
+.pie-pagina{
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+
+}
+
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+
+}
+.pie-pagina .grupo-1 .box h2{
+    color: rgb(1, 23, 217);
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p{
+    color:rgb(1, 23, 217);
+   
+    margin-bottom: 10px;
+}
+
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color:rgb(1, 23, 217);
+    
+    margin-right: 10px;
+    text-align: center;
+    background-color: #ffffff;
+    transition: all 300ms ease;
+    
+}
+.pie-pagina .grupo-2{
+    background-color: #f64e00;
+    padding: 15px 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 80%;
+        max-width: 1200px;
+       text-align: center;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    
+    }
+}
+
+.imagen-pequenia{
+    width: 200px;
+    margin-bottom: 50px;
+   
+}
+
+.solicitud-renta-container {
+    background-color: #f8f9fa;
+    padding: 50px 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.solicitud-renta h1 {
+    font-size: 2em;
+    color: #5d6166;
+    margin-bottom: 20px;
+}
+
+.solicitud-renta p {
+    font-size: 1.2em;
+    color: #6c757d;
+    margin-bottom: 30px;
+}
+
+.solicitud-renta .btn {
+    font-size: 1.2em;
+    padding: 10px 20px;
+}
+
+/* Estilos para el botón personalizado */
+.btn-custom {
+    background-color: #1b0091; /* Cambia este valor al color que prefieras */
+    border-color: #1f029f;     /* Asegúrate de que el borde tenga el mismo color */
+    color: #ffffff;            /* Color del texto */
+    font-size: 1.2em;
+    padding: 10px 20px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: #490a8c; /* Color de fondo al pasar el ratón por encima */
+    border-color: #8e08cc;     /* Color del borde al pasar el ratón por encima */
+    color: #ffffff;            /* Color del texto al pasar el ratón por encima */
+}
+
+/* Estilos para el formulario */
+.formulario {
+    background-color: #f8f9fa;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.formulario h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.formulario label {
+    display: block;
+    margin-top: 10px;
+    color: #000000;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="tel"],
+.formulario input[type="number"],
+.formulario input[type="file"],
+.formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+.formulario .btn-custom {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #ffffff;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.formulario .btn-custom:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.formulario p {
+    text-align: center;
+    margin-top: 10px;
+}
+
